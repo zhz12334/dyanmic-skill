@@ -1,0 +1,8 @@
+{
+  "version": "4.0.0-rc5",
+  "reference_files": 39,
+  "template_files": 64,
+  "csv_templates": 54,
+  "errors": [],
+  "pass": true
+}
