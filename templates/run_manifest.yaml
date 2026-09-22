@@ -1,0 +1,43 @@
+run_id: null
+paper_id: null
+mode: null
+code:
+  git_commit: null
+  tree_sha256: null
+  dirty_diff_sha256: null
+data: []
+paper_targets: []
+configuration:
+  parameter_file_sha256: null
+  whole_paper_scan_sha256: null
+  reference_closure_sha256: null
+  author_group_literature_map_sha256: null
+  cross_parameter_validation_sha256: null
+  reproducibility_probability_assessment_sha256: null
+  reproducibility_probability_report_sha256: null
+  model_dependency_graph_sha256: null
+  figure_dependency_graph_sha256: null
+  batch_plan_sha256: null
+  ground_truth_manifest_sha256: null
+  builder_validator_handoff_sha256: null
+  implementation_contract_sha256: null
+  provenance_snapshot_sha256: null
+  theory_formula_provenance_sha256: null
+  parameter_provenance_sha256: null
+environment:
+  os: null
+  python: null
+  matlab: null
+  solver: null
+  packages: {}
+hardware: {}
+randomness:
+  seeds: []
+  policy: null
+execution:
+  command: null
+  start: null
+  end: null
+  runtime_seconds: null
+outputs: []
+claims: []

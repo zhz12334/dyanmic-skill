@@ -1,0 +1,50 @@
+{
+  "version": "4.0.0-rc4",
+  "checks": [
+    {
+      "check": "exists:references/result_presentation_contract.md",
+      "pass": true
+    },
+    {
+      "check": "exists:templates/validation_card.md",
+      "pass": true
+    },
+    {
+      "check": "exists:templates/validation_metrics.csv",
+      "pass": true
+    },
+    {
+      "check": "exists:templates/batch_validation_summary.csv",
+      "pass": true
+    },
+    {
+      "check": "exists:templates/regression_dashboard.csv",
+      "pass": true
+    },
+    {
+      "check": "exists:templates/validation_packet_manifest.csv",
+      "pass": true
+    },
+    {
+      "check": "skill_version_rc4",
+      "pass": true
+    },
+    {
+      "check": "validation_packet_state",
+      "pass": true
+    },
+    {
+      "check": "dual_evidence_principle",
+      "pass": true
+    },
+    {
+      "check": "result_presentation_reference_linked",
+      "pass": true
+    },
+    {
+      "check": "fault_injection_14_cases",
+      "pass": true
+    }
+  ],
+  "all_pass": true
+}

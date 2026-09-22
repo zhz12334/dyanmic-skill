@@ -1,0 +1,1 @@
+parameter_id,parameter,symbol,description,final_value_or_range,unit,parameter_type,source_class,source_citation,source_location,source_trace_id,initial_or_prior_value,bound_lower,bound_upper,can_optimize,identification_targets,identification_method,identifiability,uncertainty_or_ci,affected_claims,status,notes

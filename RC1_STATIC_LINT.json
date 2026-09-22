@@ -1,0 +1,11 @@
+{
+  "version": "4.0.0-rc1",
+  "files_total": 98,
+  "references_total": 36,
+  "templates_total": 55,
+  "new_required_files_missing": [],
+  "csv_duplicate_columns": [],
+  "broken_internal_reference_paths": [],
+  "status": "PASS",
+  "validation_files_total": 1
+}

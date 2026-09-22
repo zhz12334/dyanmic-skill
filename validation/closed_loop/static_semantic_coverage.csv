@@ -1,0 +1,13 @@
+scenario_id,scenario,rc2_static_verdict,missing_semantic_markers_x,rc3_static_verdict,missing_semantic_markers_y
+CL01,Cross-chapter parameter recovery,PASS,,PASS,
+CL02,Citation-lineage closure before identification,PASS,,PASS,
+CL03,Source conflict,PASS,,PASS,
+CL04,Upstream gate blocks downstream fitting,PASS,,PASS,
+CL05,Ground-truth correction invalidates old scoring,PASS,,PASS,
+CL06,Low-progress tuning stops,PASS,,PASS,
+CL07,Regression damage rollback,PASS,,PASS,
+CL08,Validation exposure reclassification,PASS,,PASS,
+CL09,Numerical-knob abuse prevention,PASS,,PASS,
+CL10,Builder/Validator role violation,PASS,,PASS,
+CL11,Borrowed validation provenance,FAIL,BORROWED_VALIDATION_DATA,FAIL,BORROWED_VALIDATION_DATA
+CL12,Evidence-exhaustion terminal path,PASS,,PASS,

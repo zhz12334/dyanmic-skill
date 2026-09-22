@@ -1,0 +1,4 @@
+target_id,metric_family,metric_name,paper_value,reproduction_value,error_definition,acceptance_rule,pass
+EXAMPLE,TIME_HISTORY,RMS,0.7076899038420712,0.6935386183957241,relative error,predeclared tolerance,True
+EXAMPLE,TIME_HISTORY,dominant_frequency,3.0,3.0,absolute error,predeclared tolerance,True
+EXAMPLE,TIME_HISTORY,peak_to_peak,2.1729997116924498,2.1298456236236287,relative error,predeclared tolerance,True

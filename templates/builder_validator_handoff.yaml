@@ -1,0 +1,25 @@
+builder_id: null
+builder_run_manifest: null
+implementation_contract_version: null
+model_version: null
+code_hash: null
+parameter_snapshot_hash: null
+ground_truth_manifest_version: null
+metric_policy_version: null
+calibration_targets: []
+validation_targets: []
+validation_exposure_snapshot: null
+regression_targets: []
+forbidden_validator_actions:
+  - change_equations
+  - change_physical_parameters
+  - change_numerical_settings_to_fit_targets
+  - change_ground_truth
+  - change_metric_or_tolerance_after_results
+validator_allowed_actions:
+  - fresh_run
+  - score
+  - diagnose_discrepancy_signature
+  - issue_PASS_PARTIAL_FAIL_BLOCKED
+handoff_state: BUILDER_FROZEN
+notes: null

@@ -1,0 +1,1 @@
+batch_id,target_id,model_modules,claim_type,evidence_origin,visual_check,quantitative_check,regression_check,validation_exposure,verdict,m1_m2_class,validation_card_path,notes

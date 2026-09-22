@@ -1,0 +1,11 @@
+factor_id,factor,weight,low_score,base_score,high_score,evidence_basis,positive_evidence,risks,blocking_items,notes
+RP01,Theory/formula closure and consistency,0.16,,,,,,,,
+RP02,Parameter closure and provenance,0.16,,,,,,,,
+RP03,Model structure / BC / IC / loads / damping completeness,0.14,,,,,,,,
+RP04,Same-author/same-group cross-evidence convergence,0.12,,,,,,,,
+RP05,Numerical/solver/protocol completeness,0.10,,,,,,,,
+RP06,Target-data extractability and ground-truth quality,0.08,,,,,,,,
+RP07,Identifiability / calibration burden,0.08,,,,,,,,
+RP08,Independent validation evidence availability,0.06,,,,,,,,
+RP09,Evidence consistency / unresolved-conflict risk,0.05,,,,,,,,
+RP10,Computational/experimental tractability,0.05,,,,,,,,

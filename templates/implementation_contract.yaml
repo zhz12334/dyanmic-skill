@@ -1,0 +1,65 @@
+version: 5
+reproduction_mode: M1
+whole_paper_scan_version: null
+reference_closure_snapshot: null
+author_group_literature_map_snapshot: null
+cross_parameter_validation_snapshot: null
+reproducibility_probability_assessment_snapshot: null
+reproducibility_probability_report_snapshot: null
+model_dependency_graph_version: null
+figure_dependency_graph_version: null
+batch_plan_version: null
+ground_truth_manifest_version: null
+builder_validator_policy: enabled
+stop_tuning_policy: default_v4_rc1
+mode_transition_rules: []
+active_model_variant: PAPER_FAITHFUL
+claims: []
+equations: []
+equation_dependencies: []
+mathematical_equivalences: []
+authorized_simplifications: []
+model_structure: []
+model_implementation_obligations: []
+parameters: []
+provenance_policy: theory_parameter_provenance_v3_3
+theory_formula_provenance: []
+parameter_provenance: []
+unresolved_provenance: []
+evidence_conflicts: []
+inputs: []
+outputs: []
+target_characterization: []
+metrics: []
+tolerances: []
+calibration_targets: []
+validation_targets: []
+validation_exposure_policy: enabled
+ml_shm_data_protocol: []
+equation_level_tests: []
+runtime_path_tests: []
+model_solver_fidelity_tests: []
+formula_fidelity_gates: []
+verification_gates: []
+plan_approval_state: PLAN_AWAITING_APPROVAL
+forbidden_shortcuts:
+  - silent_equation_omission
+  - unauthorized_model_simplification
+  - silent_paper_correction
+  - unsourced_claim_relevant_term
+  - fitting_to_compensate_for_missing_formula
+  - fitting_numerical_settings_to_paper_curve
+  - silent_evidence_cherry_picking
+  - validation_reuse_without_exposure_logging
+  - target_tolerance_change_after_seeing_results_without_reapproval
+  - declaring_missing_before_whole_paper_scan
+  - calibration_before_reference_closure
+  - declaring_parameter_missing_before_author_group_cross_evidence_closure
+  - starting_full_implementation_before_reproducibility_probability_report
+  - downstream_fit_while_upstream_anchor_open
+  - overwriting_frozen_ground_truth
+  - validator_parameter_tuning
+  - continuing_tuning_after_stop_trigger_without_evidence_review
+assumptions: []
+limitations: []
+module_ownership: {}

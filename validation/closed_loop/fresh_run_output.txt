@@ -1,0 +1,24 @@
+CL01 PASS WHOLE_PAPER_SCANNED -> REFERENCE_CLOSED -> PASS
+CL02 BLOCKED WHOLE_PAPER_SCANNED -> REFERENCE_CLOSURE_OPEN -> REFERENCE_CLOSED -> BLOCKED
+CL03 PARTIAL WHOLE_PAPER_SCANNED -> SOURCE_CONFLICT -> PARTIAL
+CL04 BLOCKED WHOLE_PAPER_SCANNED -> MODEL_DEPENDENCY_FROZEN -> UPSTREAM_REOPENED -> BLOCKED
+CL05 PASS WHOLE_PAPER_SCANNED -> GROUND_TRUTH_FROZEN -> G11_REOPENED -> PASS
+CL06 BLOCKED WHOLE_PAPER_SCANNED -> STOP_TUNING -> EVIDENCE_REVIEW -> BLOCKED
+CL07 PARTIAL WHOLE_PAPER_SCANNED -> VALIDATOR_RUNNING -> ROLLBACK -> PARTIAL
+CL08 PARTIAL WHOLE_PAPER_SCANNED -> BUILDER_FROZEN -> VALIDATOR_RUNNING -> EXPOSED_DEVELOPMENT_EVIDENCE -> PARTIAL
+CL09 BLOCKED WHOLE_PAPER_SCANNED -> STOP_TUNING -> EVIDENCE_REVIEW -> BLOCKED
+CL10 BLOCKED WHOLE_PAPER_SCANNED -> BUILDER_FROZEN -> VALIDATOR_RUNNING -> ROLE_VIOLATION -> BLOCKED
+CL11 PASS WHOLE_PAPER_SCANNED -> GROUND_TRUTH_FROZEN -> PASS
+CL12 BLOCKED WHOLE_PAPER_SCANNED -> STOP_TUNING -> EVIDENCE_REVIEW -> BLOCKED
+CL13 BLOCKED WHOLE_PAPER_SCANNED -> VALIDATOR_RUNNING -> VALIDATION_PACKET_INCOMPLETE -> BLOCKED
+CL14 BLOCKED WHOLE_PAPER_SCANNED -> VALIDATOR_RUNNING -> METRIC_ROUTING_REJECTED -> BLOCKED
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 720, in _warm_feature_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 704, in _warm_collaboration_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/generated/interface/models.py", line 32317, in hydrate_crdt_from_proto
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/remote.py", line 749, in __call__
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/client.py", line 150, in call
+artifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.

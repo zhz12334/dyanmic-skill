@@ -1,0 +1,6 @@
+check_id,check,rc2_verdict,rc3_verdict
+SM01,Ground-truth correction has explicit state-machine back-edge,FAIL,PASS
+SM02,Regression damage has explicit rollback/back-edge in main state machine,FAIL,PASS
+SM03,Evidence review has explicit terminal BLOCKED/G25 exit,PASS,PASS
+SM04,Evidence review cannot reopen tuning without new evidence/M2 decision,PASS,PASS
+SM05,Workflow document version matches package release candidate,FAIL,PASS
